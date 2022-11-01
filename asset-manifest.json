@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/bbc/static/css/main.b82e46e0.css",
+    "main.js": "/bbc/static/js/main.e3a07b1c.js",
+    "static/media/3.webp": "/bbc/static/media/3.27bf8e872d0825824602.webp",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/bbc/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/firstPic.webp": "/bbc/static/media/firstPic.60a3233c3559aded8307.webp",
+    "static/media/4.jpg": "/bbc/static/media/4.8243f4e22a5b4af6cb0b.jpg",
+    "static/media/6.webp": "/bbc/static/media/6.5a984b65182dc5419a2a.webp",
+    "static/media/1.webp": "/bbc/static/media/1.3307f1d89cf2a536ec64.webp",
+    "static/media/fontawesome-webfont.eot": "/bbc/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/bbc/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/5.jpg": "/bbc/static/media/5.d340f5c98fb1a454fad2.jpg",
+    "static/media/1.jpg": "/bbc/static/media/1.6f73787ce5c65458f036.jpg",
+    "static/media/2.jpg": "/bbc/static/media/2.d06ea5063e359f146b10.jpg",
+    "static/media/4.webp": "/bbc/static/media/4.874dd994d24e9553e2d1.webp",
+    "static/media/3.jpg": "/bbc/static/media/3.be6c285497cc2e1a280e.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/bbc/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/5.webp": "/bbc/static/media/5.e1169425e588019db4b7.webp",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/bbc/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/bg.jpg": "/bbc/static/media/bg.4ec895046b0cecb6e0e2.jpg",
+    "index.html": "/bbc/index.html",
+    "main.b82e46e0.css.map": "/bbc/static/css/main.b82e46e0.css.map",
+    "main.e3a07b1c.js.map": "/bbc/static/js/main.e3a07b1c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b82e46e0.css",
+    "static/js/main.e3a07b1c.js"
+  ]
+}

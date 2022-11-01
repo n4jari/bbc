@@ -1,0 +1,117 @@
+.worldInPicture .title {
+  margin-top: 2vw;
+  border-left: 4px solid red;
+  padding: 0 0.5vw;
+  font-size: 1.7vw;
+  color: #555;
+}
+.worldInPicture .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.worldInPicture .container .box1,
+.worldInPicture .container .box2 {
+  width: 49.3% !important;
+}
+
+.worldInPicture .container .box1 img,
+.worldInPicture .container .box2 img {
+  height: 30vw !important;
+}
+.worldInPicture .container .box {
+  width: 32.5%;
+  position: relative;
+  margin-bottom: 1vw;
+  color: #f1f1f1;
+}
+.worldInPicture .container .box:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.worldInPicture .container .box img {
+  width: 100%;
+  height: 20vw;
+}
+
+.worldInPicture .container .box .content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: linear-gradient(to top, #000, transparent);
+  padding: 2vw;
+}
+
+.worldInPicture .container .box .content h2 {
+  font-size: 1.5vw;
+}
+
+.worldInPicture .container .box .content span {
+  font-size: 1vw;
+  color: #ccc;
+  padding-left: 1vw;
+  border-left: 2px solid blue;
+  font-weight: bold;
+}
+@media screen and (max-width: 900px) {
+  .worldInPicture .title {
+    margin-top: 3vw;
+    padding: 0 0.7vw;
+    font-size: 2.5vw;
+  }
+
+  .worldInPicture .container .box .content h2 {
+    font-size: 2.2vw;
+  }
+
+  .worldInPicture .container .box .content span {
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .worldInPicture .title {
+    margin-top: 5vw;
+    padding: 0 2vw;
+    font-size: 4vw;
+  }
+  .worldInPicture .container {
+    flex-direction: column;
+  }
+
+  .worldInPicture .container .box1,
+  .worldInPicture .container .box2 {
+    width: 100% !important;
+  }
+
+  .worldInPicture .container .box img {
+    display: none;
+  }
+  .worldInPicture .container .box {
+    width: 100%;
+    margin-bottom: 1vw;
+    color: #222;
+  }
+
+  .worldInPicture .container .box .content {
+    position: static;
+    width: 100%;
+    background-image: none;
+    padding: 2vw;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .worldInPicture .container .box .content h2 {
+    font-size: 4vw;
+  }
+
+  .worldInPicture .container .box .content span {
+    font-size: 3vw;
+    padding-left: 2vw;
+    color: #555;
+  }
+}

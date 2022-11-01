@@ -1,0 +1,101 @@
+.reel {
+  background-size: cover;
+  color: #f3f3f3;
+  padding-bottom: 5vw;
+  margin: 4vw 0;
+}
+.reel .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 3vw;
+}
+.reel .title h2 {
+  font-size: 3.5vw;
+}
+.reel .title span {
+  font-weight: bold;
+  padding: 0.5vw 2vw;
+  border: 1px solid #f3f3f3;
+  border-radius: 20px;
+}
+.reel .title span:hover {
+  cursor: pointer;
+  background: #111;
+}
+.reel .container {
+  margin: 0 4.5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reel .container .box {
+  width: 27vw;
+  height: 20vw;
+  cursor: pointer;
+}
+.reel .container .box:hover {
+  opacity: 0.8;
+}
+.reel .container img {
+  width: 100%;
+  height: auto;
+}
+
+.reel .container .box .content {
+  background: #f3f3f3;
+  color: #111;
+  text-align: center;
+  padding: 1vw;
+  font-size: 1.5vw;
+}
+
+@media screen and (max-width: 900px) {
+  .reel {
+    padding-bottom: 6vw;
+  }
+  .reel .title h2 {
+    font-size: 5vw;
+  }
+  .reel .title span {
+    padding: 1vw 3vw;
+  }
+
+  .reel .container {
+    margin: 0 2vw;
+  }
+  .reel .container .box {
+    width: 29vw;
+    height: 22vw;
+  }
+  .reel .container .box .content {
+    font-size: 1.8vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .reel {
+    padding: 2vw;
+    margin: 8vw 0;
+  }
+  .reel .title h2 {
+    font-size: 10vw;
+  }
+  .reel .title span {
+    padding: 2vw 5vw;
+  }
+
+  .reel .container {
+    flex-direction: column;
+    margin: 0 2vw;
+  }
+  .reel .container .box {
+    width: 100%;
+    height: auto;
+    margin-bottom: 7%;
+  }
+  .reel .container .box .content {
+    font-size: 5vw;
+    padding: 2vw;
+  }
+}

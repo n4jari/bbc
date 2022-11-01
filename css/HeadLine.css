@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+.headline .title {
+  font-size: 1.7vw;
+  color: #555;
+}
+
+.headline .container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+
+.headline .container .box {
+  position: relative;
+  margin: 0.3vw;
+  cursor: pointer;
+}
+.headline .container .box1 {
+  grid-row: 1/3;
+  grid-column: 1/3;
+}
+.headline .container .box:hover {
+  opacity: 0.9;
+}
+.headline .container .box img {
+  width: 100%;
+  height: 100%;
+}
+
+.headline .container .box .content {
+  padding: 1vw;
+  position: absolute;
+  background-image: linear-gradient(to top, #000, transparent);
+  bottom: 0;
+  width: 100%;
+  color: #f3f3f3;
+}
+.headline .container .box .content h2 {
+  font-size: 1.3vw;
+}
+.headline .container .box .content p {
+  font-size: 1.1vw;
+  color: #ccc;
+}
+
+.headline .container .box .content span {
+  font-size: 1vw;
+  border-left: 2px solid red;
+  padding: 0 0.5vw;
+  color: #ccc;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+  .headline .title {
+    font-size: 2.5vw;
+  }
+
+  .headline .container .box .content h2 {
+    font-size: 1.5vw;
+  }
+  .headline .container .box1 .content h2 {
+    font-size: 2vw;
+  }
+  .headline .container .box .content p {
+    font-size: 1.5vw;
+    color: #ccc;
+  }
+
+  .headline .container .box .content span {
+    font-size: 1.3vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .headline .title {
+    font-size: 4vw;
+  }
+  .headline .container {
+    display: block;
+  }
+  .headline .container .box img {
+    display: none;
+  }
+  .headline .container .box1 img {
+    display: block;
+  }
+
+  .headline .container .box1 .content {
+    padding: 3vw;
+  }
+  .headline .container .box:not(.box1) .content {
+    border-bottom: 1px solid #ccc;
+    color: #111;
+    background-image: none;
+    padding: 3vw 0;
+    position: static;
+  }
+
+  .headline .container .box .content h2 {
+    font-size: 4vw;
+  }
+
+  .headline .container .box .content p {
+    display: none;
+  }
+
+  .headline .container .box .content span {
+    font-size: 3vw;
+    padding: 0 1vw;
+    color: #999;
+  }
+}
