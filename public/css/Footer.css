@@ -1,0 +1,101 @@
+footer {
+  margin: 0;
+  padding: 1vw 4vw;
+  color: #f1f1f1;
+  background-color: #555;
+}
+
+footer .title {
+  margin: 1.5vw 0;
+  font-size: 1.7vw;
+}
+footer .menu {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 2vw;
+}
+footer .menu .column {
+  width: 25%;
+}
+footer .menu .column:not(:first-child) {
+  border-left: 1px solid #f1f1f1;
+  padding: 0 1.5vw;
+}
+footer .menu .column span {
+  font-weight: bold;
+  font-size: 1vw;
+  display: block;
+  line-height: 2.5vw;
+}
+footer .menu .column span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+footer .links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2vw 0;
+}
+footer .links a {
+  color: #f1f1f1;
+  font-size: 1vw;
+  text-decoration: none;
+}
+
+footer .links a:hover {
+  text-decoration: underline;
+}
+.copyright {
+  background: #444;
+  font-size: 0.9vw;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.1vw 0;
+}
+.copyright a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.copyright a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+  footer {
+    padding: 1vw 2vw;
+  }
+
+  footer .title {
+    margin: 2vw 0;
+    font-size: 2.8vw;
+  }
+  footer .menu {
+    padding-bottom: 2vw;
+  }
+  footer .menu .column:not(:first-child) {
+    border-left: 1px solid #f1f1f1;
+    padding: 0 1.5vw;
+  }
+  footer .menu .column span {
+    font-size: 1.5vw;
+    line-height: 3vw;
+  }
+  footer .links {
+    margin: 3vw 0;
+    flex-wrap: wrap;
+  }
+  footer .links a {
+    width: 25%;
+    text-align: center;
+    margin: 1vw 0;
+    font-size: 1.3vw;
+  }
+
+  .copyright {
+    font-size: 1.2vw;
+  }
+}

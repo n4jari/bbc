@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  padding: 0 3vw;
+}
+@media screen and (max-width: 900px) {
+  main {
+    padding: 0 2vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    padding: 0 3vw;
+  }
+}

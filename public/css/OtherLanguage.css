@@ -1,0 +1,78 @@
+.other_language {
+  background-color: #eee;
+  padding: 2vw 4vw;
+}
+
+.other_language .title {
+  margin: 1.5vw 0;
+  font-size: 1.7vw;
+  color: #555;
+}
+
+.other_language .container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.other_language .container .row {
+  margin: 0.5vw 0;
+}
+.other_language .container .row b {
+  font-size: 1.3vw;
+  padding-right: 1vw;
+}
+.other_language .container .row a {
+  font-size: 1.1vw;
+
+  text-decoration: none;
+  color: #555;
+  display: inline-block;
+  padding: 0.8vw;
+}
+
+.other_language .container .row a:hover {
+  color: royalblue;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+  .other_language{
+    padding: 1vw 2vw;
+
+  }
+  .other_language .title {
+    margin: 2vw 0;
+    font-size: 2.8vw;
+  }
+
+  .other_language .container .row {
+    margin: 1vw 0;
+  }
+  .other_language .container .row b {
+    font-size: 1.8vw;
+  }
+  .other_language .container .row a {
+    font-size: 1.5vw;
+
+    padding: 1vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .other_language .title {
+    margin: 2vw 0;
+    font-size: 4vw;
+  }
+
+  .other_language .container .row {
+    margin: 1.5vw 0;
+  }
+  .other_language .container .row b {
+    font-size: 3.2vw;
+  }
+  .other_language .container .row a {
+    font-size: 2.8vw;
+    padding: 2.5vw;
+  }
+}
